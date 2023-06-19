@@ -1,27 +1,79 @@
-/**
- * @name Alexis Modern Discord Theme
- * @author Alexis | WyvernZu#0001
- * @authorLink https://twitter.com/WyvernZu
- * @version 21.07.22
- * @description A decluttered, simple, and modern theme for Discord.
- * @source https://github.com/AlexisJonsson/AlexisJonsson.github.io/tree/master/BetterDiscordAddons/Themes
- * @website https://alexisjonsson.com/
-*/
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
+@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/Solana.css);
 
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/UsrBgs.css");
-@import url("https://AlexisJonsson.github.io/BetterDiscordAddons/Themes/modern-discord.theme.source.css");
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/addon/mac-titlebar.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
 
 :root {
-    /*My Account Button*/
-    --username-button-width: 128px; /* Adjust the with of the username button to match your discord username lenght */
-    --username-button-padding: 6px; /* Padding for the username button */
-    --username-button-right-margin: 12px; /* Width between the username button and the window controls */
+    --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
+    --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
+    --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
+    /* 
+    bdeditor.dev/theme/solana
+    is strongly recommended for customization 
+    */
 
-    /*Server List*/
-    --server-icon-size: 32px;  /* Size of the server icons */
-    --server-outer-margin: 14px;  /* Spacing between the edge of the container and the server icons.*/
-    --server-spacing: 10px;  /* Spacing between each server icon*/
+    /* color control */
+    --accent-hue: 213;
+    --accent-saturation: 100%;
+    --accent-brightness: 50%;
+    --background-accent-hue: 213;
+    --background-accent-saturation: 100%;
+    --background-accent-brightness: 50%;
 
-    /*Server Info Bar*/
-    --app-info-bar-height: 48px; /* Height for container that holds the server name, info, actions and search */
+    /* background image */
+    --background-image: initial;
+    --background-image-position: center;
+    --background-image-size: cover;
+    --background-image-blur: 0;
+    --background-overlay-opacity: 80%;
+    --background-overlay-color-lightness: 0;
+    --background-hue-shift-strength: 100%;
+
+    /* window */
+    --window-background-image: initial;
+    --window-background-image-position: center;
+    --window-background-image-attachment: fixed;
+    --window-opacity: 100%;
+    --window-blur: 0;
+    --window-friends-blur: 0;
+    --window-margin: 24;
+    --window-margin-left: 0;
+    --window-border-radius: 10px;
+    --window-background-lightness: 0;
+    --window-accent-tint-strength: 5%;
+
+    /* chat */
+    --chat-bubble: 0;
+    --chat-bubble-background-color: var(--background-primary);
+    --chat-bubble-border-color: var(--background-primary-border-color);
+    --text-link-hue: 212;
+    --chat-text-brightness: 0;
+
+    /* dock */
+    --home-icon: initial;
+    --favorites-icon: initial;
+    --dock-blur: var(--window-blur);
+    --dock-border-radius: 0;
+
+    /* sidebar */
+    --sidebar-width: 240px;
+    --members-width: 240px;
+    --sidebar-text-brightness: 0;
+
+    /* floating */
+    --background-floating-blur: 20px;
+    --floating-background-lightness: 0;
+    --background-floating-opacity: 1;
+    --enable-floating-transparency: 1;
+
+    /* font */
+    --custom-font-display: "";
+    --custom-font-regular: "";
+    --custom-font-primary: "";
+    --custom-font-code: "";
+
+    /* other */
+    --enable-blur: 1;
 }
