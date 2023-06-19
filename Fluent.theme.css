@@ -6,14 +6,6 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
 
 :root {
-    --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
-    --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
-    --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
-    /* 
-    bdeditor.dev/theme/solana
-    is strongly recommended for customization 
-    */
-
     /* color control */
     --accent-hue: 213;
     --accent-saturation: 100%;
