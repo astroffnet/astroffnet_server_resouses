@@ -1,0 +1,14 @@
+#Discord theme that brings back the 2020 discord style
+@import url(https://github.com/milbits/oldcord/raw/main/OldCord.theme.css);
+#Apple style Emoji
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
+#Animated profile pictures without nitro with a Vencord(PC) or Vendetta
+@import url(https://raw.githubusercontent.com/Yeetov/USRPFP-Reborn/main/db/dist.css);
+#Updates Discord indicators to feel more modern
+@import url(https://discord-extensions.github.io/modern-indicators/src/source.css);
+#CSS to revert Discord font change.
+@import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css);
+#Updates Discord user connections to feel more modern.
+@import url(https://github.com/discord-extensions-archived/modern-user-connections/releases/download/betterdiscord/modern-user-connections.theme.css);
+#Replicates the Discord macOS titlebar on Windows.
+@import url(https://github.com/discord-extensions/macos-titlebar/releases/download/betterdiscord/macos-titlebar.theme.css);
